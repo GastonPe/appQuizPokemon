@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.InicioActivity"
+    android:background="@drawable/fondo_degradado_quiz">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imagenPokemon"
+            android:layout_width="100dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="top|center"
+            android:layout_weight="2"
+            android:src="@drawable/pokeball"
+            android:importantForAccessibility="no" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_marginTop="10dp"
+            android:text="@string/cual_es_este_pokemon"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center|top" />
+
+        <Button
+            android:id="@+id/btnEmpezar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/empezar"
+            android:layout_weight="0.1"/>
+
+        <Button
+            android:id="@+id/btnPuntuaciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/puntuaciones"
+            android:layout_weight="0.1"/>
+
+        <Button
+            android:id="@+id/btnlista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/listaDePokemon"
+            android:layout_weight="0.1"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

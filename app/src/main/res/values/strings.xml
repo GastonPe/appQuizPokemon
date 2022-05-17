@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="empezar">Empezar</string>
+    <string name="puntuaciones">Puntuaciones</string>
+    <string name="listaDePokemon">Lista de Pokémon</string>
+    <string name="puntuacion">Puntuación:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="introduce_un_nombre">Introduce un nombre</string>
+    <string name="ok">ok</string>
+    <string name="imagen_del_pokemon">Imagen del pokemon</string>
+    <string name="cual_es_este_pokemon">¿Cuál es este Pokémon?</string>
+</resources>
